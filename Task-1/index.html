@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <p>I have picked a number between 1 and 10. Can you guess it?</p>
+        <div class="game-area">
+            <input type="number" id="guessInput" placeholder="Enter your guess">
+            <button id="checkButton">Check</button>
+            <p id="message"></p>
+            <p>Guesses remaining: <span id="guessesRemaining"></span></p>
+            <button id="resetButton" class="hidden">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
