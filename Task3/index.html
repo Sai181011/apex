@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Trivia Quiz</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Interactive Trivia Quiz</h1>
+    <div class="score">Score: <span id="score">0</span></div>
+    <div class="timer" id="timer">Time: 30s</div>
+    <div class="question" id="question"></div>
+    <div class="options" id="options"></div>
+    <div class="feedback" id="feedback"></div>
+    <div class="loading" id="loading">Loading questions...</div>
+    <div class="error" id="error"></div>
+    <div class="buttons">
+      <button class="btn" id="previous" disabled>Previous</button>
+      <button class="btn" id="submit" disabled>Submit</button>
+      <button class="btn" id="skip">Skip</button>
+      <button class="btn" id="next" disabled>Next</button>
+    </div>
+    <button class="btn" id="restart" style="display: none;">Restart Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
